@@ -1,0 +1,310 @@
+.line {
+    position: relative;
+}
+
+.circle {
+    position: sticky;
+    top: calc(50% - 10px);
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 10;
+
+}
+
+
+.circle1 {
+    position: sticky;
+    top: calc(0% + 20px);
+}
+
+.circle2 {
+    top: calc(20% + 20px);
+}
+
+.circle3 {
+    top: calc(40% + 20px);
+}
+
+.circle4 {
+    top: calc(60% + 20px);
+}
+
+.circle5 {
+    top: calc(80% + 20px);
+}
+
+.green {
+    background-color: green;
+}
+
+#circle6 {
+    border: none;
+    background-color: #ffffff0a;
+    margin-left: -50px;
+}
+
+
+
+.timeline__progressbar {
+    --width: 2px;
+    --left: 10%;
+    position: absolute;
+    left: var(--left);
+    width: var(--width);
+    height: calc(100% - 30vh);
+    background-color: white;
+}
+
+@media screen and (min-width: 287px) {
+    .timeline__progressbar {
+        --left: 11%;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .timeline__progressbar {
+        --left: 10.7%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .timeline__progressbar {
+        --left: 9.8%;
+    }
+}
+
+@media screen and (min-width: 451) {
+    .timeline__progressbar {
+        --left: 9.5%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .timeline__progressbar {
+        --left: 9.1%;
+    }
+}
+
+@media screen and (min-width: 590px) {
+    .timeline__progressbar {
+        --left: 8.7%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .timeline__progressbar {
+        --left: 8.5%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .timeline__progressbar {
+        --left: 8.3%;
+    }
+}
+
+@media screen and (min-width: 745px) {
+    .timeline__progressbar {
+        --left: 8%;
+    }
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .timeline__progressbar {
+        --left: 7.9%;
+    }
+}
+
+
+@media screen and (min-width: 880px) {
+    .timeline__progressbar {
+        --left: 7.7%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .timeline__progressbar {
+        --width: 3px;
+        --left: 50%;
+
+    }
+
+    .circle {
+        left: 48.5%;
+    }
+
+}
+
+
+@media screen and (min-width: 1069px) {
+    .circle {
+        left: 48.2%;
+    }
+
+}
+
+/* @media screen and (min-width: 1073px) {
+    .circle {
+        left: 47.3%;
+    }
+
+} */
+
+@media screen and (min-width: 1077px) {
+    .circle {
+        left: 48.7%;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1090px) {
+    .circle {
+        left: 48.4%;
+    }
+
+}
+
+@media screen and (min-width: 1094px) {
+    .circle {
+        left: 48.5%;
+    }
+
+}
+
+@media screen and (min-width: 1097px) {
+    .circle {
+        left: 48%;
+    }
+
+}
+
+@media screen and (min-width: 1110px) {
+    .circle {
+        left: 48.4%;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .circle {
+        left: 48.7%;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    .circle {
+        left: 48.5%;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .circle {
+        left: 48.7%;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .circle {
+        left: 48.8%;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .circle {
+        left: 48.5%;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .circle {
+        left: 48.8%;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .circle {
+        left: 48.7%;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .circle {
+        left: 48.7%;
+    }
+}
+
+@media screen and (min-width: 1210px) {
+    .circle {
+        left: 48.7%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1240px) {
+    .circle {
+        left: 48.9%;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .circle {
+        left: 48.8%;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .circle {
+        left: 49%;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .circle {
+        left: 49.7%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .circle {
+        left: 48.9%;
+    }
+}
+
+@media screen and (min-width: 1290px) {
+    .circle {
+        left: 48.8%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .circle {
+        left: 48.9%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1350px) {
+
+    .circle {
+        left: 49%;
+    }
+
+}
