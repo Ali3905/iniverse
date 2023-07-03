@@ -30,17 +30,6 @@ const Token = () => {
     const [slidesPerView, setSlidesPerView] = useState(3);
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    // const handlePrevClick = () => {
-    //     if (swiperRef.current && swiperRef.current.swiper) {
-    //         swiperRef.current.swiper.slidePrev();
-    //     }
-    // };
-
-    // const handleNextClick = () => {
-    //     if (swiperRef.current && swiperRef.current.swiper) {
-    //         swiperRef.current.swiper.slideNext();
-    //     }
-    // };
 
     useEffect(() => {
         if (swiperRef.current && swiperRef.current.swiper) {
@@ -48,12 +37,6 @@ const Token = () => {
         }
     }, []);
 
-    // const handleSlideChange = () => {
-    //     if (swiperRef.current && swiperRef.current.swiper) {
-    //         const { activeIndex } = swiperRef.current.swiper;
-    //         setSlidesPerView(activeIndex <= 1 ? 3 : 1);
-    //     }
-    // };
     const settings = {
         infinite: true,
         speed: 200,
